@@ -1,0 +1,71 @@
+@import url('https://')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    background: rgb(14, 14, 82);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.wrapper{
+    background: white;
+    width: 380px;
+    padding: 25px 40px ;
+    border-radius: 7px;
+    color: black;
+    height: 400px;
+}
+.wrapper header{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+.wrapper form{
+    margin: 35px 0 20px;
+}
+form .row{
+    display: flex;
+    flex-direction: column;
+    flex-direction:column;
+}
+form .row label{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+form :where(textarea, select, button){
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+form .row textarea{
+    resize: none;
+    border: 1px solid #999;
+    height: 110px;
+    font-size: 15px;
+    padding: 8px 10px;
+}
+form .row .outer{
+    height: 47px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+form .row slect {
+    font-size: 14px;
+}
+form button{
+    height: 52px;
+    margin-top: 10px;
+    color: #fff;
+    font-size:17px;
+    cursor: pointer;
+    background: rgb(8, 8, 59);
+}
